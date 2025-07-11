@@ -15,3 +15,14 @@ document.getElementById('id1').textContent=`the number of student ${student1}`;
 document.getElementById('id2').textContent=`the number of student2 ${student2}`;
 document.getElementById('id3').textContent=`the number of student3 ${student3}`;
 document.getElementById('id4').textContent=`the number of student4 ${student4}`;
+document.getElementById('matop').textContent=`MATH OP`;
+student2+=5;
+document.getElementById('math1').textContent=`the number of student 2 new= ${student2}`;
+document.getElementById(`userinput`).textContent=`user input`;
+let user;
+document.getElementById("btn1").onclick=function()
+{
+   
+   user=document.getElementById("username").value;
+   console.log(user);
+}
