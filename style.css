@@ -1,24 +1,6 @@
-* {
-    background-color: rgb(179, 191, 226);
+.box1{
+border: 1px solid black;
 }
-#boxinput{
-    
-    display: flex;
-}
-#btn1 {
-    background-color: gray;
-}
-#inputpart{
-    border: 2px solid black;
-  
-    
-}
-#inpmargin{
-margin-left: 5px;
-margin-bottom: 10px;
-
-}
-#boxforinput{
-    display: flex;
-    gap:4px;
+.dispic{
+    background-image: url(sea.jpg);
 }
