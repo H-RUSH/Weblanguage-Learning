@@ -1,6 +1,41 @@
-.box1{
-border: 1px solid black;
+#pagination {
+    border: 1px solidblack;
 }
-.dispic{
-    background-image: url(sea.jpg);
+
+table {
+    
+    height: 50px;
+    width: 150px;
+    overflow: auto;
+    align-items: center;
+    background-color: white;
+}
+td{
+    text-align: center;
+    padding: 10px;
+}
+body {
+background-color:#C6C6C6;
+}
+.pegination{
+    background-color: white;
+    text-align: center;
+    margin: 20px;
+    
+}
+.pegination a{
+    text-decoration: none;
+    padding:10px 20px;
+    display: inline-block;
+    
+}
+.pegination a.active{
+    background-color: green;
+}
+.pegination a:hover{
+    color:red;
+    background-color:yellow;
+}
+.pegination a:hover:not(.active){
+    background-color: blue;
 }
