@@ -1,0 +1,2 @@
+day 2: learnt 1 thing if we make lebel for (for) and input id same then this lebel and input is connected 
+ 
