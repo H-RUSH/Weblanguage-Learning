@@ -1,2 +1,2 @@
 day 2: learnt 1 thing if we make lebel for (for) and input id same then this lebel and input is connected 
- 
+day 3: to day i understand about some thing on `` and "" in the second its dont mean veriable and consider all ass text 
