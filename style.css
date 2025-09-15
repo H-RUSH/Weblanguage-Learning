@@ -3,12 +3,14 @@ h2{
 }
 .constant{
     height: 100px;
-    width: 100vw;
     background-color: rgb(239, 215, 215);
     padding: 10px;
-    margin: 10px;
-
 }
+button{
+    height: 25px;
+    width:auto ;
+}
+
 h1{
     font-size: 20px;
 }
@@ -16,25 +18,50 @@ h1{
     background-color: aqua;
     height: 200px ;
     margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
     
 }
 #counter{
     font-size: 20px;
 }
-button{
-    height: 50px;
-    width: 100px;
-   
-   margin: 10px;
-}
+
 #count{
     font-size: 50px;
     font-weight: bold;
-}#count{
     padding: 10px;
+}
+#counntx{
+    display: flex;
+    margin-bottom: 40px;
 }
 
 #randomcontainar{
     height: 200px;
     margin-top: 20;background-color: skyblue;
+}
+
+/* all new div control starting from here  */
+div{
+    height: 200px;
+    margin-top: 5px;
+    margin-left:0px;
+    margin-right: 0px;
+    padding: 10px;
+}
+#ifcontainar{
+    background-color: rgb(55, 53, 53);
+}
+#if_submit{
+    height: 20px;
+    display: block;
+    
+}
+#if_id{
+    color: white;
+    font-size: large;
+    font-weight: 100;
+}
+#if_result{
+    color: white;
 }
