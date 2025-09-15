@@ -35,3 +35,20 @@ document.getElementById('constTxt').textContent='this is constant';
   c_number=0;
   count.textContent= c_number;
  }
+
+
+
+
+
+let random = document.getElementById(`random-b`);
+let randomresult = document.getElementById(`ran-generator`)
+let min_random = 1;
+let max_random =10;
+let generated_number;
+random.onclick=function(){
+  generated_number=Math.floor(Math.random()*max_random+1);
+  document.getElementById(`ran-generator`).textContent = generated_number;
+}
+
+
+

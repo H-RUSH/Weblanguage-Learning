@@ -24,7 +24,7 @@ h1{
 button{
     height: 50px;
     width: 100px;
-   background-color: blue;
+   
    margin: 10px;
 }
 #count{
@@ -32,4 +32,9 @@ button{
     font-weight: bold;
 }#count{
     padding: 10px;
+}
+
+#randomcontainar{
+    height: 200px;
+    margin-top: 20;background-color: skyblue;
 }
