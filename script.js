@@ -63,6 +63,27 @@ let catchpas=ifinput.value;
  }
 }
 
-
-
-
+// THis parth where im doing ckbox
+document.getElementById(`ckboxintro`).textContent="This is chekbox Submission"
+document.getElementById(`ckboxsubmit`).textContent="SUBMIT"
+let submit = document.getElementById(`ckboxsubmit`);
+let visa =document.getElementById(`visa`);
+let mastercard =document.getElementById(`mastercard`);
+let creditcard =document.getElementById(`creditcard`);
+let atm=document.getElementById(`atm`);
+let ckbxrslt=document.getElementById(`ckbxrslt`);
+submit.onclick=function(){
+if(visa.checked){
+  ckbxrslt.textContent="you are paying with visa";
+}
+else if(mastercard.checked){
+  ckbxrslt.textContent="you are selected mastercard";
+}
+else if(creditcard.checked){
+  ckbxrslt.textContent="uou selected credit card"
+}
+else if(atm.checked){
+  ckbxrslt.textContent="your are olay9ng with atm card"
+}
+}
+//can i change color with radiot buttion?

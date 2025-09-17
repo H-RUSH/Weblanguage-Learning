@@ -65,3 +65,14 @@ div{
 #if_result{
     color: white;
 }
+#ckbox{
+    background-color: rgb(14, 109, 192);
+    
+}
+#ckboxsubmit{
+    background-color: rgb(233, 134, 13);
+
+}
+#ckboxsubmit:hover{
+    background-color: rgb(249, 14, 14);
+}
