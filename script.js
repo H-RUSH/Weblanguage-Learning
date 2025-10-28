@@ -13,9 +13,8 @@ document.getElementById('constTxt').textContent='this is constant';
     console.log(radios , typeof(radios))
    radios=Number(radios);
    console.log(radios,typeof(radios));
-    
-  
- }
+   document.getElementById(`redresult`).textContent=`the radious is ${radios}`;
+  }
 
  let c_number = 0;
  let count = document.getElementById(`count`);
