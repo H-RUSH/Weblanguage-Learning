@@ -1,87 +1,94 @@
-body{
+body {
     height: 100vh;
     width: 100vw;
     margin: 0px;
     padding: 0px;
-    background: linear-gradient(rgb(1, 1, 46) ,white);
-    overflow-x:hidden;
+    background-image: url(lightning-bolts.jpg);
     background-repeat: no-repeat;
+    overflow-x: hidden;
+   background-size: cover ;
     background-attachment: fixed;
 }
-h2{
+
+#containar {
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color:rgb(255, 255, 255,0.05);
+    backdrop-filter: blur(5px);
+    box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 0 0px 0px rgba(255, 255, 255, 0);
+}
+*{
+    color: white;
+}
+
+h2 {
     font-size: 10px;
 }
-.constant{
+
+.constant {
     height: 100px;
-   
+    background-color: rgb(255, 255, 255, 0.05);
+    padding: 10px;
+    border: 1px white;
+}
+
+button {
+    height: 25px;
+    width: auto;
+    background-color: rgba(9, 9, 106, 0.373);
+}
+
+h1 {
+    font-size: 20px;
+}
+#count{
+    margin: 20px 10px 0px 0px;
     padding: 10px;
 }
-button{
-    height: 25px;
-    width:auto ;
-}
 
-h1{
-    font-size: 20px;
-}
-.containar{
-   
-    height: 200px ;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-bottom: 30px;
-    
-}
-#counter{
+#counter {
     font-size: 20px;
 }
 
-#count{
+#count {
     font-size: 50px;
     font-weight: bold;
-    padding: 10px;
-}
-#counntx{
-    display: flex;
-    margin-bottom: 40px;
+    padding: 5px;
 }
 
-#randomcontainar{
+#counntx {
+    display: flex;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+#randomcontainar {
     height: 200px;
-   
+
 }
 
 /* all new div control starting from here  */
-div{
+div {
     height: 200px;
     margin-top: 5px;
-    margin-left:0px;
+    margin-left: 0px;
     margin-right: 0px;
     padding: 10px;
 }
-#ifcontainar{
-    
-}
-#if_submit{
+
+#if_submit {
     height: 20px;
     display: block;
-    
-}
-#if_id{
-   
-    font-size: large;
-    font-weight: 100;
-}
-#if_result{
-   
-}
-#ckbox{
-   
-}
-#ckboxsubmit{
-    
 
 }
-#ckboxsubmit:hover{
-  
+
+#if_id {
+
+    font-size: large;
+    font-weight: 100;
 }
