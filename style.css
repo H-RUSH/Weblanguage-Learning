@@ -21,14 +21,18 @@ body {
     inset 0 1px 0 rgba(255, 255, 255, 0.5),
     inset 0 -1px 0 rgba(255, 255, 255, 0.1),
     inset 0 0 0px 0px rgba(255, 255, 255, 0);
+    scroll-margin-bottom: 20px;
 }
 *{
     color: white;
 }
-
-h2 {
-    font-size: 10px;
+h2{
+    margin: 5px;
 }
+pre{
+    margin: 0;
+}
+
 
 .constant {
     height: 100px;
@@ -92,3 +96,26 @@ div {
     font-size: large;
     font-weight: 100;
 }
+/* Strictly equal */
+#steql-btn{
+    color:white;
+    background-color: black;
+    border-radius: 15px;
+    transition: transform 2s ease;
+    
+}
+#steql-btn:hover{
+    background:linear-gradient(yellow, red);
+   transform: scale(1.3);
+
+}
+
+#steql-inp{
+    background-color:transparent;
+    -webkit-appearance: none;
+   
+}
+#steql-inp:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
+    -webkit-text-fill-color: black !important;
+  }

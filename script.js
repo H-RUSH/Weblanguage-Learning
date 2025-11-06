@@ -86,3 +86,19 @@ else if(atm.checked){
 }
 }
 //can i change color with radiot buttion?
+/* Strictly equal */
+const eql = document.getElementById(`steql-btn`);
+eql.onclick=function(){
+  const comp = 10;
+  const steqlinp=document.getElementById(`steql-inp`).value;
+  if(comp===steqlinp){
+    document.getElementById(`steql-out`).textContent="this is equal"
+  }
+  else{
+    document.getElementById(`steql-out`).textContent="this is  not equal"
+  }
+
+}
+  
+
+
